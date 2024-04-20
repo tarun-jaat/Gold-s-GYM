@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+margin: 0;
+padding;
+}
+body
+{
+font-family: sans-serif;
+background-image: url(contact.jpg);
+background-repeat:no-repeat;
+background-size: 1550px 800px;
+
+
+}
+.contact-box
+{
+width: 500px;
+background-color: #bab3b3;
+box-shadow: 0 0 20px 0 #750101;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+position: absolute;
+border-radius: 30px;
+}
+.contact-box h1{
+  border:5px;
+  font-family:serif;
+  margin:auto;
+  font-style:oblique;
+  color:#a45151;
+}
+form
+{
+margin: 35px;
+}
+.input-field
+{
+width: 400px;
+height: 40px;
+margin-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #000;
+}
+.textarea-field
+{
+height: 150px;
+padding-top: 5px;
+}
+</style>
+<title>Responsive Contact Form</title>
+<link rel="stylesheet" href="St.css">
+
+</head>
+
+<body>
+<div class="contact-box">
+<h1><center>Contact Us</center></h1>
+<form>
+<label>Your Name</label><br>
+<input type="text" class="input-field" placehloder="Your Name"><br>
+<label>Your Email</label>
+<input type="email" class="input-field" placehloder="Your Email">
+<label>Your Message</label>
+<textarea type="text" class="input-field textarea-field" placehloder="Your Message">
+</textarea>
+<button type="button" class="btn"> Send Message</btn>
+</form>
+</div>
+</body>
+</html>
